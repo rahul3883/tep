@@ -12,5 +12,5 @@ npm i @rahul171/tep -g
 
 #### Create a nodejs project
 ```shell script
-tep <project-name>
+$ tep <project-name>
 ```
