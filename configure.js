@@ -3,7 +3,7 @@ const path = require('path');
 
 const sep = path.sep;
 
-const packagePath = path.dirname(require.resolve('@rahul171/tep/package.json'));
+const packagePath = __dirname;
 
 const projectName = process.argv[2];
 

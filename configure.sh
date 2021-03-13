@@ -20,3 +20,4 @@ cp $PACKAGE_PATH/samples/sample-tsconfig.json tsconfig.json
 cp $PACKAGE_PATH/samples/sample-eslintrc .eslintrc
 cp $PACKAGE_PATH/samples/sample-prettierrc .prettierrc
 cp -R $PACKAGE_PATH/samples/src ./
+echo "$PROJECT_NAME configured successfully"
