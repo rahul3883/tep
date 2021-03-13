@@ -1,0 +1,28 @@
+{
+  "name": "@rahul171/tep",
+  "version": "1.0.0",
+  "description": "Create a nodejs project with typescript, eslint and prettier pre-configured",
+  "bin": {
+    "tep": "configure.js"
+  },
+  "scripts": {},
+  "author": {
+    "name": "Rahul Soni",
+    "email": "rahul.soni3883@gmail.com",
+    "url": "https://github.com/rahul3883"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahul3883/tep.git"
+  },
+  "license": "ISC",
+  "keywords": [
+    "typescript",
+    "eslint",
+    "prettier",
+    "new",
+    "node",
+    "project",
+    "app"
+  ]
+}
