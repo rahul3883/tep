@@ -12,9 +12,5 @@ if (!projectName) {
   process.exit(1);
 }
 
-exec(
-  `sh ${packagePath}${sep}configure.sh ${packagePath} ${projectName}`,
-  (err, strout, stderr) => {
-    console.log(err);
-  },
-);
+const setupProcess = exec(`sh ${packagePath}${sep}configure.sh ${packagePath} ${projectName}`);
+setupProcess.stdout.pipe(process.stdout);
