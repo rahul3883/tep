@@ -16,10 +16,11 @@ const setupProcess = exec(`sh ${packagePath}${sep}configure.sh ${packagePath} ${
   const packageJson = require(packageJsonPath);
   packageJson.scripts = {
     start: "tsc && node dist/index.js",
-    dev: "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    dev: "nodemon --watch 'src/**/*.ts' --exec 'tsx' src/index.ts",
     lint: "eslint .",
     "lint:fix": "eslint . --fix"
   };
+  packageJson.type = "module";
   fs.writeFile(packageJsonPath, JSON.stringify(packageJson, null, 2), () => {
     console.log(`\n${projectName} configured successfully`);
   })
