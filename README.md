@@ -5,7 +5,7 @@ Create a nodejs project with typescript, eslint and prettier pre-configured.
 ## Install
 
 ```shell script
-npm i @rahul171/tep -g
+npm i @rahul1711/tep -g
 ```
 
 ## Usage
