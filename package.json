@@ -1,6 +1,6 @@
 {
   "name": "@rahul1711/tep",
-  "version": "3.0.2",
+  "version": "3.0.4",
   "description": "Create a nodejs project with typescript, eslint and prettier pre-configured",
   "bin": {
     "tep": "index.js"

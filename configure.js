@@ -21,7 +21,6 @@ const setupProcess = exec(`sh ${packagePath}${sep}configure.sh ${packagePath} ${
     lint: "eslint .",
     "lint:fix": "eslint . --fix"
   };
-  packageJson.type = "module";
   fs.writeFile(packageJsonPath, JSON.stringify(packageJson, null, 2), () => {
     console.log(`\n${projectName} configured successfully`);
   })
