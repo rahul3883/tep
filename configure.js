@@ -17,6 +17,7 @@ const setupProcess = exec(`sh ${packagePath}${sep}configure.sh ${packagePath} ${
   packageJson.scripts = {
     start: "tsc && node dist/index.js",
     dev: "nodemon --watch 'src/**/*.ts' --exec 'tsx' src/index.ts",
+    build: "tsc",
     lint: "eslint .",
     "lint:fix": "eslint . --fix"
   };
