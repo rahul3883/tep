@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rahul3883/tep.git"
+    "url": "git+https://github.com/rahul3883/tep.git"
   },
   "license": "ISC",
   "keywords": [
